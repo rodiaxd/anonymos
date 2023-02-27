@@ -67,7 +67,7 @@ namespace anonymos
         {
             if (userNameField.Text == "")
             {
-                _ = userNameField.Text == "Введите имя";
+                userNameField.Text == "Введите имя";
                 userNameField.ForeColor = Color.Gray;
             }
         }
